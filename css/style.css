@@ -2932,3 +2932,19 @@ ol {
 		background-position: top 0 left 19%;
 	}
 }
+
+@media (max-width: 768px) {
+  .hero {
+    padding-top: 180px;
+    padding-bottom: 150px;
+    background-position: center center;
+    background-size: contain; /* invece di cover, per farla ridimensionare */
+  }
+  .hero__text h1 {
+    font-size: 50px;
+  }
+  .hero__text img {
+    max-width: 80%;
+    height: auto;
+  }
+}
